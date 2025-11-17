@@ -46,34 +46,34 @@ projectItems.forEach(function (item) {
 
     switch (projectId) {
       case '1':
-        window.open('https://insantomgmc.github.io/Gtech-landing-page/', '_blank');
+        window.open('https://involvee.github.io/Gtech-landing-page/', '_blank');
         break;
       case '2':
-        window.open('https://insantomgmc.github.io/El-Dacha-landing-page/', '_blank');
+        window.open('https://involvee.github.io/El-Dacha-landing-page/', '_blank');
         break;
       case '3':
-        window.open('https://insantomgmc.github.io/Filmberry-movie-app/', '_blank');
+        window.open('https://involvee.github.io/Filmberry-movie-app/', '_blank');
         break;
       case '4':
-        window.open('https://insantomgmc.github.io/Hydra-Landing-Page/', '_blank');
+        window.open('https://involvee.github.io/Hydra-Landing-Page/', '_blank');
         break;
       case '5':
-        window.open('https://insantomgmc.github.io/Krypto-Landing-Page/', '_blank');
+        window.open('https://involvee.github.io/Krypto-Landing-Page/', '_blank');
         break;
       case '6':
-        window.open('https://insantomgmc.github.io/GreenZone/', '_blank');
+        window.open('https://involvee.github.io/GreenZone/', '_blank');
         break;
       case '7':
-        window.open('https://insantomgmc.github.io/Arcade/', '_blank');
+        window.open('https://involvee.github.io/Arcade/', '_blank');
         break;
       case '8':
-        window.open('https://insantomgmc.github.io/Crypto-Arcade/', '_blank');
+        window.open('https://involvee.github.io/Crypto-Arcade/', '_blank');
         break;
       case '9':
-        window.open('https://insantomgmc.github.io/GreenZone/', '_blank');
+        window.open('https://involvee.github.io/GreenZone/', '_blank');
         break;
       case '10':
-        window.open('https://insantomgmc.github.io/GreenZone/', '_blank');
+        window.open('https://involvee.github.io/GreenZone/', '_blank');
         break;
       default:
         console.log('Неправильный id проекта:', projectId);
