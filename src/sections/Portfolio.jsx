@@ -39,7 +39,7 @@ import cppFull4 from "@/assets/projects/cplusplus-4.png";
 import cppImg from "@/assets/projects/cplusplus.png";
 
 // Jean Semenov
-import jeanFull from "@/assets/projects/Jean-Semenov-fullpage.png";
+import jeanFull from "@/assets/projects/Jean-semenov-fullpage.png";
 import jeanImg from "@/assets/projects/jean.png";
 
 // Shiply
