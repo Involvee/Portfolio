@@ -6,47 +6,47 @@ import PortfolioItemOverlay from "../components/PortfolioItemOverlay"
 import "./Portfolio.css"
 import { motion } from 'framer-motion'
 
-import armaniFullimg from "/src/assets/projects/armani-fullpage.png"
-import armaniFullimg2 from "/src/assets/projects/armani-fullpage-2.png"
-import armaniImg from "/src/assets/projects/armani.png"
+import armaniFullimg from "@/assets/projects/armani-fullpage.png"
+import armaniFullimg2 from "@/assets/projects/armani-fullpage-2.png"
+import armaniImg from "@/assets/projects/armani.png"
 
 // Gtech
-import gtechFull from "/src/assets/projects/gtech-fullpage.png";
-import gtechImg from "/src/assets/projects/gtech.png";
+import gtechFull from "@/assets/projects/gtech-fullpage.png";
+import gtechImg from "@/assets/projects/gtech.png";
 
 // El Dacha
-import dachaFull from "/src/assets/projects/el-dacha-fullpage.png";
-import dachaImg from "/src/assets/projects/el-dacha.png";
+import dachaFull from "@/assets/projects/el-dacha-fullpage.png";
+import dachaImg from "@/assets/projects/el-dacha.png";
 
 // Filmberry
-import filmberryFull1 from "/src/assets/projects/filmberry-fullpage.png";
-import filmberryFull2 from "/src/assets/projects/filmberry-fullpage-2.png";
-import filmberryImg from "/src/assets/projects/filmberry.png";
+import filmberryFull1 from "@/assets/projects/filmberry-fullpage.png";
+import filmberryFull2 from "@/assets/projects/filmberry-fullpage-2.png";
+import filmberryImg from "@/assets/projects/filmberry.png";
 
 // Silent Wallet
-import silentFull from "/src/assets/projects/silentwallet-fullpage.png";
-import silentImg from "/src/assets/projects/silent-wallet.png";
+import silentFull from "@/assets/projects/silentwallet-fullpage.png";
+import silentImg from "@/assets/projects/silent-wallet.png";
 
 // Arcade
-import arcadeFull from "/src/assets/projects/arcade-fullpage.png";
-import arcadeImg from "/src/assets/projects/arcade.png";
+import arcadeFull from "@/assets/projects/arcade-fullpage.png";
+import arcadeImg from "@/assets/projects/arcade.png";
 
 // C++ 2048
-import cppFull1 from "/src/assets/projects/cplusplus-1.png";
-import cppFull2 from "/src/assets/projects/cplusplus-2.png";
-import cppFull3 from "/src/assets/projects/cplusplus-3.png";
-import cppFull4 from "/src/assets/projects/cplusplus-4.png";
-import cppImg from "/src/assets/projects/cplusplus.png";
+import cppFull1 from "@/assets/projects/cplusplus-1.png";
+import cppFull2 from "@/assets/projects/cplusplus-2.png";
+import cppFull3 from "@/assets/projects/cplusplus-3.png";
+import cppFull4 from "@/assets/projects/cplusplus-4.png";
+import cppImg from "@/assets/projects/cplusplus.png";
 
 // Jean Semenov
-import jeanFull from "/src/assets/projects/Jean-Semenov-fullpage.png";
-import jeanImg from "/src/assets/projects/jean.png";
+import jeanFull from "@/assets/projects/Jean-Semenov-fullpage.png";
+import jeanImg from "@/assets/projects/jean.png";
 
 // Shiply
-import cargoFull1 from "/src/assets/projects/cargo-fullpage.png";
-import cargoFull2 from "/src/assets/projects/cargo-fullpage-2.png";
-import cargoFull3 from "/src/assets/projects/cargo-fullpage-3.png";
-import cargoImg from "/src/assets/projects/cargo.png";
+import cargoFull1 from "@/assets/projects/cargo-fullpage.png";
+import cargoFull2 from "@/assets/projects/cargo-fullpage-2.png";
+import cargoFull3 from "@/assets/projects/cargo-fullpage-3.png";
+import cargoImg from "@/assets/projects/cargo.png";
 
 
 
