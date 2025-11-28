@@ -1,0 +1,123 @@
+:root {
+  --color-primary-100: #f0f6ff;
+  --color-primary-200: #bad6fa;
+  --color-primary-300: #83b6f5;
+  --color-primary-400: #4791ec;
+  --color-primary-500: #2084ff;
+  --color-primary-600: #0b6ce3;
+  --color-primary-transparent: rgba(32, 132, 255, 0.35);
+  --color-green-100: #e8f6f1;
+  --color-green-200: #bfecdb;
+  --color-green-300: #96e2c5;
+  --color-green-400: #56be96;
+  --color-green-500: #40c391;
+  --color-green-600: #169a67;
+  --color-green-transparent: rgba(64, 195, 145, 0.35);
+  --color-orange-100: #fff8f2;
+  --color-orange-200: #ffe3cd;
+  --color-orange-300: #ffcea8;
+  --color-orange-400: #e6975b;
+  --color-orange-500: #ffa866;
+  --color-orange-600: #cc600d;
+  --color-orange-transparent: rgba(255, 168, 102, 0.35);
+  --color-red-100: #feefef;
+  --color-red-200: #ffcece;
+  --color-red-300: #ffacac;
+  --color-red-400: #e56f6f;
+  --color-red-500: #fa6767;
+  --color-red-500: #cb3131;
+  --color-red-transparent: rgba(250, 103, 103, 0.35);
+  --color-dark-100: #9f9fab;
+  --color-dark-200: #7a7a8a;
+  --color-dark-300: #545569;
+  --color-dark-400: #313244;
+  --color-dark-500: #222433;
+  --color-dark-600: rgb(13, 15, 31);
+  --color-dark-transparent-300-40: rgba(84, 85, 105, 0.4);
+  --color-dark-transparent-200-20: rgba(122, 122, 138, 0.2);
+  --color-light-100: #fff;
+  --color-light-200: #f2f3f6;
+  --color-light-300: #e4e7ec;
+  --color-light-400: #d7dae3;
+  --color-light-500: #e6e9f0;
+  --color-light-600: #caced9;
+  --color-light-transparent-300-50: rgba(228, 231, 236, 0.4);
+  --color-light-transparent-200-40: rgba(242, 243, 246, 0.4);
+
+
+  --font-family: "Zen Dots", sans-serif;
+  --second-family: "IBMPlexSans", sans-serif;
+}
+
+html {
+  font-size: clamp(14px, 1vw + 0.5rem, 1.1111vw);
+  /* scroll-behavior: smooth; */
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4a4f6a #1e1f26;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1e1f26;
+  /* темный трек */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4a4f6a;
+  border-radius: 10px;
+  border: 2px solid #1e1f26;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #5a5f7c;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #6b7090;
+}
+
+@font-face {
+  font-family: 'Zen Dots';
+  src: url('/fonts/Zen-Dots/ZenDots-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('/fonts/IBM/IBM-Mono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: var(--color-dark-600);
+  font-family: var(--font-family);
+}
+

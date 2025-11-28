@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    padding: 60px 0;
+    background: linear-gradient(-358deg, rgba(240, 246, 255, 0.1) 0%, rgba(240, 246, 255, 0) 130%);
+    color: #fff;
+}
+
+.footer .title-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #999;
+    transition: color .3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer .contact-btn {
+    margin-top: 12px;
+    color: #999;
+}

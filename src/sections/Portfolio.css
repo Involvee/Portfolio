@@ -1,0 +1,120 @@
+.portfolio__container {
+    columns: 3 400px;
+}
+
+.larger {
+    grid-column: span 2;
+}
+
+.portfolio__pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.portfolio__pagination-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    border-radius: 5px;
+    padding: 0px 64px;
+    background: var(--color-dark-transparent-300-40);
+    padding: 0 48px;
+    height: 48px;
+}
+
+.portfolio__pagination-item {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: var(--color-light-300);
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio__pagination-item::before,
+.portfolio__pagination-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    opacity: 0;
+    background: var(--color-primary-500);
+}
+
+.portfolio__pagination-item::before {
+    left: 50%;
+}
+
+.portfolio__pagination-item::after {
+    right: 50%;
+}
+
+.portfolio__pagination-item.active::after,
+.portfolio__pagination-item.active::before {
+    opacity: 1;
+    width: 60%;
+    transition: all .3s ease-in-out;
+}
+
+.portfolio__pagination-item.active {
+    color: var(--color-primary-500);
+}
+
+@media (max-width: 768px) {
+    .hero__strip-patterns-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 615px) {
+    .portfolio__pagination-list {
+        width: 100%;
+        justify-content: center;
+        padding: 0 10px;
+        gap: 30px;
+    }
+
+    .portfolio__pagination-item {
+        font-size: 12px;
+    }
+
+    .header__nav-item a {
+        font-size: 11px;
+        gap: 5px;
+    }
+
+    .header__nav-list {
+        padding: 5px;
+        gap: 10px;
+    }
+
+    .portfolio__item.larger {
+        height: 200px;
+    }
+
+    .portfolio__item {
+        height: 200px;
+    }
+
+    .header__nav-item a span {
+        font-size: 8px;
+    }
+    .portfolio-item-overlay__project-info {
+        column-gap: 20px;
+        row-gap: 50px;
+    }
+    .primary-section {
+        padding: 60px 15px;
+    }
+}

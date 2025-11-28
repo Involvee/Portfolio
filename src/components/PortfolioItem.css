@@ -1,0 +1,108 @@
+.portfolio__item {
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    height: 310px;
+    margin-bottom: 15px;
+}
+
+.portfolio__item.larger {
+    height: 400px;
+}
+
+.portfolio__item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio__item-img-wrapper {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: -2;
+    height: 100%;
+}
+
+.portfolio__item-img-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+    transition: all .3s ease;
+}
+
+.portfolio__item-content {
+    position: absolute;
+    z-index: -1;
+    bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    padding: 0 20px 0 20px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transform: translateY(30px);
+}
+
+
+@media (hover: hover) {
+    .portfolio__item:hover .portfolio__item-img-wrapper::before {
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 1;
+    }
+
+    .portfolio__item:hover .portfolio__item-content {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.portfolio__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: var(--color-light-100);
+    font-family: Poppins, sans-serif;
+}
+
+.portfolio__item-description {
+    font-weight: 600;
+    font-size: 14px;
+    color: #999;
+    font-family: var(--second-family);
+    margin-top: 3px;
+}
+
+.portfolio__item-stack-list {
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    list-style: none;
+    row-gap: 10px;
+}
+
+.portfolio__item-stack-item {
+    background: rgb(105, 104, 105);
+    padding: 4px 8px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-size: 10px;
+    margin-right: 6px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-family: var(--second-family);
+}

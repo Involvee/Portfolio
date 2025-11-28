@@ -1,0 +1,15 @@
+.stack-icon {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: var(--color-dark-transparent-200-20);
+    z-index: -1;
+    opacity: .7;
+}
+
+.stack-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+}

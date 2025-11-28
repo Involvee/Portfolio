@@ -1,0 +1,100 @@
+.services-card-wrapper {
+    flex: 1 1 33%;
+}
+
+.services-item {
+    border-width: 3px 1.5px 3px 3px;
+    border-color: #a3a3a3;
+    border-style: solid;
+    padding: 40px 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+
+.services-item header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.services-item header h3 {
+    position: relative;
+}
+
+.services-item header h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 7px;
+    z-index: -1;
+    width: 0;
+    opacity: 0;
+    animation: show-border 1.5s ease forwards;
+}
+
+.services-item.blue header h3::before {
+    background: linear-gradient(65deg, #2C49D8 0%, #2C49D8 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.services-item.red header h3::before {
+    background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%)
+}
+
+.services-item.yellow header h3::before {
+    background: linear-gradient(65deg, #FF6B2B 0%, #FF6B2B 100%, rgba(255, 209, 0, 0) 100%)
+}
+
+
+@keyframes show-border {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.services-item-content {
+    font-family: var(--second-family);
+    font-size: 1rem;
+    padding-left: 35px;
+}
+
+.services-item-content::before {
+    content: "<h3>";
+    display: block;
+    margin-bottom: 5px;
+    color: #a3a3a3;
+    margin-left: -35px;
+}
+
+.services-item-content::after {
+    content: "</h3>";
+    display: block;
+    margin-top: 5px;
+    color: #a3a3a3;
+    margin-left: -35px;
+}
+
+.services-content-wrapper {
+    position: relative;
+}
+
+.services-content-wrapper::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 55%;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #a3a3a3;
+    opacity: .5;
+}

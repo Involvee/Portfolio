@@ -1,0 +1,9 @@
+.section-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 154%;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--color-light-400);
+}
